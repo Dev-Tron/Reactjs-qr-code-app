@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 60px 15px;
+
+  @media (min-width: 1440px) {
+    padding-top: 15%;
+  }
+}
+
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+
+  @media (min-width: 1440px) {
+    width: 25%;
+  }
+}
+
+img {
+  width: 90%;
+  border-radius: 15px;
+  margin-top: 5%;
+
+  @media (min-width: 1440px) {
+    max-width: 95%;
+  }
+}
+
+h1 {
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  padding: 0 10%;
+}
+
+p {
+  font-size: 15px;
+  padding: 0 10% 10% 10%;
+  color: hsl(220, 15%, 55%);
+}
+
+
+
+
+
+
+
